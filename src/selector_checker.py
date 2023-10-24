@@ -5,8 +5,8 @@ import tempfile
 from multiprocessing import Process, Queue
 import pandas as pd
 
-filename_1 = "/Users/john/Downloads/BFO-2020-master/21838-2/prover9/axiom_declarations.smt2"
-filename_2 = "/Users/john/Downloads/BFO-2020-master/21838-2/prover9/combined.smt2"
+filename_1 = ""
+filename_2 = ""
 
 def load_declarations(filename):
     with open(filename, 'r') as f:
